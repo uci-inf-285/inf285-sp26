@@ -1,0 +1,217 @@
+{
+	"defaults": {
+		"lecture" : {
+			"place": {
+					"label": "Topic"
+				}
+		},
+		"demo" : {
+			"place": {
+					"time": "16:00",
+					"duration": "60",
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/93781269979"
+				}
+		},
+		"officehours_daniel": {
+			"title": "Daniel Office Hours",
+			"place": {
+					"time": "16:00",
+					"duration": "60",
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/93781269979"
+				}
+		},
+		"officehours_ziqi": {
+			"title": "Ziqi Office Hours",
+			"place": {
+					"time": "17:00",
+					"duration": "60",
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/92210227443"
+				}
+		},
+		"officehours_weijun": {
+			"title": "Weijun Office Hours",
+			"place": {
+					"time": "16:00",
+					"duration": "60",
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/3993699399"
+				}
+		},
+		"assignment" : {
+			"due": "23:59"
+		}
+	},
+	"events" : [
+		{
+			"date": "2026-03-31",
+			"type": "lecture",
+			"title": "Overview: What is This Course?"
+		},
+		{
+			"date": "2026-03-31",
+			"type": "lecture",
+			"title": "Programming: Coding with Files"
+		},
+		{
+			"date": "2026-04-02",
+			"type": "lecture",
+			"title": "Practice: Version Control"
+		},
+		{
+			"date": "2026-04-06",
+			"type": "assignment",
+			"title": "A0",
+			"name": "Hello, World!",
+			"link": "assignments/a0"
+		},
+		{
+			"date": "2026-04-07",
+			"type": "lecture",
+			"title": "Programming: HTML"
+		},
+		{
+			"date": "2026-04-09",
+			"type": "lecture",
+			"title": "Practice: Frontend vs. Backend Development"
+		},
+		{
+			"date": "2026-04-13",
+			"type": "assignment",
+			"title": "A1",
+			"name": "TODO List HTML & CSS",
+			"link": "assignments/a1"
+		},
+		{
+			"date": "2026-04-14",
+			"type": "lecture",
+			"title": "Programming: CSS & Animations"
+		},
+		{
+			"date": "2026-04-16",
+			"type": "lecture",
+			"title": "Practice: Responsive and Adaptive Design"
+		},
+		{
+			"date": "2026-04-20",
+			"type": "assignment",
+			"title": "A1",
+			"name": "TODO List Animations",
+			"link": "assignments/a1"
+		},
+		{
+			"date": "2026-04-21",
+			"type": "lecture",
+			"title": "Programming: Design Systems"
+		},
+		{
+			"date": "2026-04-23",
+			"type": "lecture",
+			"title": "Practice: Libraries and Toolkits"
+		},
+		{
+			"date": "2026-04-27",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Design Mockup",
+			"link": "assignments/a2"
+		},
+		{
+			"date": "2026-04-28",
+			"type": "lecture",
+			"title": "Programming: Variables & Conditionals in JS"
+		},
+		{
+			"date": "2026-04-30",
+			"type": "lecture",
+			"title": "Practice: Compatibility and Cross-Platform"
+		},
+		{
+			"date": "2026-05-04",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Design System 1",
+			"link": "assignments/a2"
+		},
+		{
+			"date": "2026-05-05",
+			"type": "lecture",
+			"title": "Programming: Loops in JS"
+		},
+		{
+			"date": "2026-05-07",
+			"type": "lecture",
+			"title": "Practice: Databases and Storage"
+		},
+		{
+			"date": "2026-05-11",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Design System 2",
+			"link": "assignments/a2"
+		},
+		{
+			"date": "2026-05-12",
+			"type": "lecture",
+			"title": "Programming: Data Structures"
+		},
+		{
+			"date": "2026-05-14",
+			"type": "lecture",
+			"title": "Practice: Logins"
+		},
+		{
+			"date": "2026-05-18",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Hello, Pokemon!",
+			"link": "assignments/a3"
+		},
+		{
+			"date": "2026-05-19",
+			"type": "lecture",
+			"title": "Programming: DOM Manipulation"
+		},
+		{
+			"date": "2026-05-21",
+			"type": "lecture",
+			"title": "Practice: Large Language Models and Generative AI"
+		},
+		{
+			"date": "2026-05-26",
+			"type": "lecture",
+			"title": "Programming: Interface Frameworks"
+		},
+		{
+			"date": "2026-05-28",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Search & Filter",
+			"link": "assignments/a3"
+		},
+		{
+			"date": "2026-05-28",
+			"type": "lecture",
+			"title": "Practice: Beyond Web and Mobile"
+		},
+		{
+			"date": "2026-06-02",
+			"type": "lecture",
+			"title": "Programming: Language Roles"
+		},
+		{
+			"date": "2026-06-04",
+			"type": "lecture",
+			"title": "Practice: Developer Handoffs"
+		},
+		{
+			"date": "2026-06-08",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Design Patterns",
+			"link": "assignments/a3"
+		}
+	]
+}

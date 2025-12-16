@@ -1,0 +1,21 @@
+<main class="container-fluid">
+	<h1>Assignments</h1>
+	<ul>
+        @for(assignment of assignments; track assignment) {
+            <li>
+                {{assignment.title}}: {{assignment.name}}
+                <ul>
+                @for(part of assignment.parts; track part) {
+                    <li>
+                        @if(part.link) {
+                            <a [href]="part.link">{{part.name}} (Due {{part.dueStr}})</a>
+                        } @else {
+                            <span>{{part.name}} (Due {{part.dueStr}})</span>
+                        }
+                    </li>
+                }
+                </ul>
+            </li>
+        }
+	</ul>
+</main>

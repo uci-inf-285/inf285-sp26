@@ -1,0 +1,263 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+
+/* Palette URL: http://paletton.com/#uid=70m0u0kllllaFw0g0qFqFg0w0aF */
+
+:root{
+	--color-primary-0: #265B6A;	/* Main Primary color */
+	--color-primary-1: #457684;
+	--color-primary-2: #6C949F;
+	--color-primary-3: #104250;
+	--color-primary-4: #022A35;
+
+	--color-secondary-1-0: #303E74;	/* Main Secondary color (1) */
+	--color-secondary-1-1: #515E91;
+	--color-secondary-1-2: #7B85AE;
+	--color-secondary-1-3: #182457;
+	--color-secondary-1-4: #07113A;
+
+	--color-secondary-2-0: #AA8939;	/* Main Secondary color (2) */
+	--color-secondary-2-1: #D5B56B;
+	--color-secondary-2-2: #FFE6AB;
+	--color-secondary-2-3: #806016;
+	--color-secondary-2-4: #563C00;
+
+	--color-complement-0: #AA7239;	/* Main Complement color */
+	--color-complement-1: #D5A06B;
+	--color-complement-2: #FFD5AB;
+	--color-complement-3: #804C16;
+	--color-complement-4: #562B00;
+}
+
+
+@font-face {
+	font-family: ChaparralPro;
+	font-style: normal;
+	src: url("/fonts/ChaparralPro-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: ChaparralPro;
+	font-style: italic;
+	src: url("/fonts/ChaparralPro-Italic.woff") format("woff");
+}
+
+hr {
+	border-top: 5px double #888;
+}
+
+body {
+	padding: 25px;
+	font-family: 'ChaparralPro', serif;
+}
+
+.container {
+	max-width: 1000px;
+	padding: 0px;
+}
+
+nav {
+	text-align: right;
+}
+
+nav > a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.name > h1 {
+	font-weight: 700;
+	margin:0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 1.3em;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+h4 {
+	font-size: 1.0em;
+}
+
+aside {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.7em;
+}
+
+aside > h2 {
+	font-weight: 700;
+	font-size: 1.2em;
+	margin: 10px 0px 5px 0px;
+}
+
+aside > p {
+	margin: 2px 2px 5px 2px;
+	font-size: 1.0em;
+}
+
+aside > a {
+	display: block;
+}
+
+aside > a > span {
+	vertical-align: top;
+	line-height: 16px;
+}
+
+cite {
+	font-style: normal;
+	padding: 10px 0px;
+	display: block;
+}
+
+cite > .series {
+	font-family: 'Lato', sans-serif;
+}
+
+cite > a {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+}
+
+cite > .authors {
+	font-family: 'ChaparralPro', serif;
+	font-size: 1.1em;
+}
+
+cite > .title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+cite > .notes {
+	font-family: 'Lato', sans-serif;
+	color: var(--color-complement-0);
+	font-weight: 300;
+	font-size: 0.8em;
+}
+
+img.maxwidth {
+	max-width: 100%;
+	display: block;
+}
+
+code {
+	color: var(--color-complement-0);
+}
+
+hr {
+	border-top: 1px solid #888;
+}
+
+a {
+	color: var(--color-primary-0);
+}
+
+a:hover {
+	color: var(--color-primary-1);
+}
+
+a:active {
+	color: var(--color-primary-2);
+}
+
+a:visited {
+	color: var(--color-primary-0);
+}
+
+blockquote {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	margin: 0 0 0 1em;
+}
+
+tbd {
+	color: var(--color-secondary-2-0);
+}
+
+.tbd {
+	color: var(--color-secondary-2-0);
+}
+
+.emph {
+	font-family: 'Lato', sans-serif;
+	color: var(--color-complement-0);
+}
+
+.table {
+	margin-right: 0px;
+	margin-left: 0px;
+	box-sizing: border-box;
+}
+
+/*A hack from https://codepen.io/savehansson/pen/rsIEp*/
+.day {
+	box-shadow: 
+    1px 0 0 0 #000, 
+    0 1px 0 0 #000, 
+    1px 1px 0 0 #000,   /* Just to fix the corner */
+    1px 0 0 0 #000 inset, 
+    0 1px 0 0 #000 inset;
+}
+
+.today {
+	background-color: var(--color-primary-1);
+}
+
+.event {
+	margin: 2px;
+	padding: 4px;
+	font-size: 80%;
+}
+
+.event > .title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.lecture {
+	background-color: #9AC6C5;
+}
+
+.demo {
+	background-color: #A5E6BA;
+}
+
+.holiday {
+	background-color: #AC699D;
+}
+
+.assignment {
+	background-color: #DDAE7E;
+}
+
+.absence {
+	background-color: #BCA3AC;
+	font-weight: 300;
+}
+
+.officehours_daniel {
+	background-color: #C15D82;
+}
+
+.officehours_weijun {
+	background-color: #C15D82;
+}
+
+.officehours_ziqi {
+	background-color: #C15D82;
+}

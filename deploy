@@ -1,0 +1,2 @@
+ng build --configuration production
+ng deploy --repo https://github.com/uci-inf-285/inf285-sp26.git --cname=inf285-sp26.depstein.net --dir=dist/inf285-sp26/browser

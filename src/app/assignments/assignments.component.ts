@@ -14,13 +14,13 @@ export class AssignmentsComponent {
       'name': 'Hello, World!',
       'parts': [] },
     {'title': 'A1',
-      'name': 'Widget Factory in Adobe Spectrum',
+      'name': 'TODO List in HTML and CSS',
       'parts': [] },
     {'title': 'A2',
-      'name': 'Department Course Report in JavaScript',
+      'name': 'Widget Factory in Adobe Spectrum',
       'parts': [] },
       {'title': 'A3',
-        'name': 'Accessibility Browser Extension',
+        'name': 'Pokedex in JavaScript',
         'parts': [] }
   ];
 

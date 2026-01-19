@@ -3,9 +3,9 @@
         <p class="tbd">This will be replaced.</p>
     <h1>A3: Pokedex in JavaScript</h1>
         <p>In this assignment, you will apply programming principles in JavaScript to create an interactive Pokedex. Many such pokedexes exist, such as <a href="https://bulbapedia.bulbagarden.net/">Bulbapedia</a>. Here, we'll leverage the <a href="https://pokeapi.co/">PokeAPI</a> to create a fairly simple pokedex for the original 151 Pokemon.</p>
-        <p>This assignment is in three parts, with a part due every 1-1.5 weeks. In the first part (<a href="assignments/a3#hello">Part 1</a>), you will use JavaScript to dynamically populate a Pokedex entry with some information about the Pokemon. In the second part (<a href="assignments/a3#stats">Part 2</a>), you will use loops and functions to populate the Pokemon's stats and moves. In the third part (<a href="assignments/a3#search">Part 3</a>) you will update the main page of your Pokedex to include search and filter features.</p>
+        <p>This assignment is in three parts, with a part due every 1-1.5 weeks. In the first part (<a href="assignments/a3#hello">Part 1</a>), you will use JavaScript to dynamically populate a Pokedex entry with some information about the Pokemon. In the second part (<a href="assignments/a3#stats">Part 2</a>), you will use loops and functions to populate the Pokemon's stats and moves. In the third part (<a href="assignments/a3#search">Part 3</a>) you will update the main page of your Pokedex to include search and filter features. This assignment is worth <strong>25 points</strong>, split between the three parts.</p>
         <h2>Starter code</h2>
-        <p>The code is available for download <a href="https://github.com/uci-inf-285/a1-todo-list">on GitHub</a>.
+        <p>The code is available for download <a href="https://github.com/uci-inf-285/a3-pokedex">on GitHub</a>.
         <h3>Repository Structure</h3>
         <p>We have provided a folder with a number of files to you. You will edit some of them in this assignment, but not all.</p>
         <p>The files you <em>should not</em> need to edit are:</p>
@@ -32,14 +32,29 @@
         <img class="fullwidth" src="assignments/a3_squirtle.png">
         <p>The <code>pokedex.html</code> file references <code>pokemon_page.js</code> to identify what information should be displayed. In this part, edit the <code>updateDescription</code> function to call methods of the Pokemon class to update its name, sprite, cry, height, weight, type(s), and description. Some of these fields may require some mathematical conversions, or conditional statements (e.g., <code>if</code>) to operate. Bulbapedia is a good resource for looking up whether information for a given Pokemon is being displayed correctly. If you change the Pokedex number that gets passed to <code>pokedex.html</code>, the data should change; Charizard has a different sprite, height, types, etc. than Squirtle.</p>
         <p>Once you are displaying the correct information for each Pokemon, edit the <code>updateNavigation</code> function to support sequential navigation between Pokemon. For example, Squirtle is #007, appearing before Charizard (#006) and after Wartortle (#008). Use conditional statements to handle the edge cases of Bulbasaur (#001), who has no Pokemon before it, and Mew (#151), who has no Pokemon after it.</p>
+        <p>This part of the assignment is worth <strong>7 points</strong>, distributed as:</p>
+        <ul>
+            <li>Description fields (4 points)</li>
+            <li>Navigation (3 points)</li>
+        </ul>
         <p>To submit, zip your code repository and upload it to Canvas. Include all files.</p>
         <h2 id="stats">Part 2: {{assignments[1].name}}</h2>
-        <p>In this part, continue editing the <code>pokemon_page.js</code> file to update the stats and moves of each pokemon (via the <code>updateStats</code> and <code>updateMoves</code> functions). To update the stats, you will have to read up on Bootstrap's progress bar to learn how its width and color get styled, and DOM manipulation for how to edit those styles. You will also have to use loops (e.g., <code>for</code>) to loop over the arrays of moves that each Pokemon has. The <code>updateStat</code> and <code>addMove</code> functions intend to help with some of the more fiddly parts of displaying and populating these fields.</p>
+        <p>In this part, continue editing the <code>pokemon_page.js</code> file to update the stats and moves of each pokemon (via the <code>updateStats</code> and <code>updateMoves</code> functions). To update the stats, you will have to read up on <a href="https://getbootstrap.com/docs/5.3/components/progress/">Bootstrap's progress bar</a> to learn how its width and color get styled, and DOM manipulation for how to edit those styles. You will also have to use loops (e.g., <code>for</code>) to loop over the arrays of moves that each Pokemon has. The <code>updateStat</code> and <code>addMove</code> functions intend to help with some of the more fiddly parts of displaying and populating these fields.</p>
+        <p>This part of the assignment is worth <strong>8 points</strong>, distributed as:</p>
+        <ul>
+            <li>Pokemon stats (4 points)</li>
+            <li>Displaying moves (4 points)</li>
+        </ul>
         <p>To submit, zip your code repository and upload it to Canvas. Include all files.</p>
         <h2 id="search">Part 3: {{assignments[2].name}}</h2>
         <p>Now that your Pokedex entries are intact, you can return to your Pokedex page's JavaScript file (<code>search_page.js</code>, on <code>index.html</code>) to add capability for searching for Pokemon by name and filtering by type. These two capabilities will use the same functions, e.g., <code>updateSearchResults</code>, <code>showPokemon</code>, and <code>hidePokemon</code>. It's recommended that you try to implement them one at a time.</p>
         <img class="image" src="assignments/a3_search_demo.gif">
-        <p>From here, you can extend your assignment in different ways for extra credit. One is to access and display additional information from the PokeAPI, which likely requires extending the <code>pokemon.js</code> class. Another is adding additional search/filter functionality, like a "check/uncheck all" button or the ability to search by move in addition to Pokemon name. Talk to the course staff if you have additional ideas that you would like to pursue!</p>
+        <p>From here, you can extend your assignment in different ways for extra credit. One is to access and display additional information from the PokeAPI, which likely requires extending the <code>pokemon.js</code> class. Another is adding additional search/filter functionality, like a "check/uncheck all" button or the ability to search by move in addition to Pokemon name. Talk to the course staff if you have additional ideas that you would like to pursue! We can offer up to 5 points of extra credit for advancements.</p>
+        <p>This part of the assignment is worth <strong>10 points</strong>, distributed as:</p>
+        <ul>
+            <li>Search by Pokemon name (5 points)</li>
+            <li>Filter by type (5 points)</li>
+        </ul>
         <p>To submit, zip your code repository and upload it to Canvas. Include all files.</p>
     </main>
 }

@@ -138,7 +138,7 @@
 		{
 			"date": "2026-05-05",
 			"type": "lecture",
-			"title": "Programming: Loops in JS"
+			"title": "Programming: Loops and Functions in JS"
 		},
 		{
 			"date": "2026-05-07",
@@ -155,7 +155,7 @@
 		{
 			"date": "2026-05-12",
 			"type": "lecture",
-			"title": "Programming: Data Structures"
+			"title": "Programming: DOM Manipulation"
 		},
 		{
 			"date": "2026-05-14",
@@ -172,7 +172,7 @@
 		{
 			"date": "2026-05-19",
 			"type": "lecture",
-			"title": "Programming: DOM Manipulation"
+			"title": "Programming: Data Structures"
 		},
 		{
 			"date": "2026-05-21",

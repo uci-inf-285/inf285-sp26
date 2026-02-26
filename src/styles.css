@@ -52,7 +52,6 @@ body {
 }
 
 .container {
-	max-width: 1000px;
 	padding: 0px;
 }
 
@@ -165,6 +164,7 @@ hr {
 
 a {
 	color: var(--color-primary-0);
+	text-decoration: none;
 }
 
 a:hover {
@@ -198,7 +198,7 @@ tbd {
 	color: var(--color-complement-0);
 }
 
-.table {
+.calendar_table {
 	margin-right: 0px;
 	margin-left: 0px;
 	box-sizing: border-box;

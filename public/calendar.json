@@ -19,16 +19,16 @@
 					"time": "16:00",
 					"duration": "60",
 					"location": "Zoom",
-					"link": "https://uci.zoom.us/j/93781269979"
+					"link": "https://uci.zoom.us/j/99854649003"
 				}
 		},
 		"officehours_ziqi": {
 			"title": "Ziqi Office Hours",
 			"place": {
-					"time": "17:00",
+					"time": "12:00",
 					"duration": "60",
 					"location": "Zoom",
-					"link": "https://uci.zoom.us/j/92210227443"
+					"link": "https://uci.zoom.us/j/9208048200"
 				}
 		},
 		"officehours_weijun": {
@@ -61,11 +61,23 @@
 			"link": "https://uci.yuja.com/V/Video?v=15479416&node=67034977&a=212668986"
 		},
 		{
+			"date": "2026-04-01",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-04-02",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2026-04-02",
 			"type": "lecture",
 			"title": "Practice: Version Control",
 			"link": "https://uci.yuja.com/V/Video?v=12651761&node=55255463&a=157181080",
 			"slides": "lectures/l2-version_control.pdf"
+		},
+		{
+			"date": "2026-04-06",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2026-04-06",
@@ -83,11 +95,23 @@
 			"link": "https://uci.yuja.com/V/Video?v=15479417&node=67034978&a=47728928"
 		},
 		{
+			"date": "2026-04-08",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-04-09",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2026-04-09",
 			"type": "lecture",
 			"title": "Practice: Frontend vs. Backend Development",
 			"slides": "lectures/l4-frontend_backend.pdf",
 			"link": "https://uci.yuja.com/V/Video?v=12692060&node=55362325&a=162924254"
+		},
+		{
+			"date": "2026-04-13",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2026-04-13",
@@ -105,11 +129,23 @@
 			"demo": "demos/l5-css_animations.zip"
 		},
 		{
+			"date": "2026-04-15",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-04-16",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2026-04-16",
 			"type": "lecture",
 			"title": "Practice: Responsive and Adaptive Design",
 			"slides": "lectures/l6-responsive_adaptive.pdf",
 			"link": "https://uci.yuja.com/V/Video?v=12743966&node=55519293&a=204159531"
+		},
+		{
+			"date": "2026-04-20",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2026-04-20",
@@ -124,9 +160,21 @@
 			"title": "Programming: Design Systems"
 		},
 		{
+			"date": "2026-04-22",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-04-23",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2026-04-23",
 			"type": "lecture",
 			"title": "Practice: Libraries and Toolkits"
+		},
+		{
+			"date": "2026-04-27",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2026-04-27",
@@ -141,9 +189,21 @@
 			"title": "Programming: Variables & Conditionals in JS"
 		},
 		{
+			"date": "2026-04-29",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-04-30",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2026-04-30",
 			"type": "lecture",
 			"title": "Practice: Compatibility and Cross-Platform"
+		},
+		{
+			"date": "2026-05-04",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2026-05-04",
@@ -158,9 +218,21 @@
 			"title": "Programming: Loops and Functions in JS"
 		},
 		{
+			"date": "2026-05-06",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-05-07",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2026-05-07",
 			"type": "lecture",
 			"title": "Practice: Databases and Storage"
+		},
+		{
+			"date": "2026-05-11",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2026-05-11",
@@ -175,9 +247,21 @@
 			"title": "Programming: DOM Manipulation"
 		},
 		{
+			"date": "2026-05-13",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-05-14",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2026-05-14",
 			"type": "lecture",
 			"title": "Practice: Logins"
+		},
+		{
+			"date": "2026-05-18",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2026-05-18",
@@ -192,14 +276,35 @@
 			"title": "Programming: Data Structures"
 		},
 		{
+			"date": "2026-05-20",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-05-21",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2026-05-21",
 			"type": "lecture",
 			"title": "Practice: Large Language Models and Generative AI"
 		},
 		{
+			"date": "2026-05-25",
+			"type": "holiday",
+			"title": "Memorial Day"
+		},
+		{
 			"date": "2026-05-26",
 			"type": "lecture",
 			"title": "Programming: Interface Frameworks"
+		},
+		{
+			"date": "2026-05-27",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-05-28",
+			"type": "officehours_weijun"
 		},
 		{
 			"date": "2026-05-28",
@@ -214,9 +319,21 @@
 			"title": "Practice: Beyond Web and Mobile"
 		},
 		{
+			"date": "2026-06-01",
+			"type": "officehours_ziqi"
+		},
+		{
 			"date": "2026-06-02",
 			"type": "lecture",
 			"title": "Programming: Language Roles"
+		},
+		{
+			"date": "2026-06-03",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2026-06-04",
+			"type": "officehours_weijun"
 		},
 		{
 			"date": "2026-06-04",

@@ -260,7 +260,10 @@
 		{
 			"date": "2026-05-12",
 			"type": "lecture",
-			"title": "Programming: DOM Manipulation"
+			"title": "Programming: DOM Manipulation",
+			"slides": "lectures/l13-dom_manipulation.pdf",
+			"demo": "demos/l13-dom_manipulation.zip",
+			"link": "https://uci.yuja.com/V/Video?v=16003528&node=68548790&a=33328952"
 		},
 		{
 			"date": "2026-05-13",
@@ -273,7 +276,9 @@
 		{
 			"date": "2026-05-14",
 			"type": "lecture",
-			"title": "Practice: Logins"
+			"title": "Practice: Logins",
+			"slides": "lectures/l14-logins_authentication.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=13012167&node=56341125&a=27966752"
 		},
 		{
 			"date": "2026-05-18",

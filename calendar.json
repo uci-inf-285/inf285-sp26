@@ -322,7 +322,10 @@
 		{
 			"date": "2026-05-26",
 			"type": "lecture",
-			"title": "Programming: Interface Frameworks"
+			"title": "Programming: Interface Frameworks",
+			"slides": "lectures/l17-interface_frameworks.pdf",
+			"demo": "demos/l17-interface_frameworks.zip",
+			"link": "https://uci.yuja.com/V/Video?v=16104872&node=68768065&a=48601564"
 		},
 		{
 			"date": "2026-05-27",
@@ -342,7 +345,9 @@
 		{
 			"date": "2026-05-28",
 			"type": "lecture",
-			"title": "Practice: Beyond Web and Mobile"
+			"title": "Practice: Beyond Web and Mobile",
+			"slides": "lectures/l18-beyond_web_mobile.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=13061513&node=56652968&a=74113990"
 		},
 		{
 			"date": "2026-06-01",

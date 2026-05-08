@@ -251,19 +251,19 @@
 			"type": "officehours_ziqi"
 		},
 		{
-			"date": "2026-05-11",
-			"type": "assignment",
-			"title": "A2",
-			"name": "Design System 2",
-			"link": "assignments/a2"
-		},
-		{
 			"date": "2026-05-12",
 			"type": "lecture",
 			"title": "Programming: DOM Manipulation",
 			"slides": "lectures/l13-dom_manipulation.pdf",
 			"demo": "demos/l13-dom_manipulation.zip",
 			"link": "https://uci.yuja.com/V/Video?v=16003528&node=68548790&a=33328952"
+		},
+		{
+			"date": "2026-05-13",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Design System 2",
+			"link": "assignments/a2"
 		},
 		{
 			"date": "2026-05-13",
@@ -285,19 +285,19 @@
 			"type": "officehours_ziqi"
 		},
 		{
-			"date": "2026-05-18",
-			"type": "assignment",
-			"title": "A3",
-			"name": "Hello, Pokemon!",
-			"link": "assignments/a3"
-		},
-		{
 			"date": "2026-05-19",
 			"type": "lecture",
 			"title": "Programming: Data Structures",
 			"slides": "lectures/l15-data_structures.pdf",
 			"demo": "demos/l15-data-structures.zip",
 			"link": "https://uci.yuja.com/V/Video?v=16066604&node=68691457&a=88125747"
+		},
+		{
+			"date": "2026-05-20",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Hello, Pokemon!",
+			"link": "assignments/a3"
 		},
 		{
 			"date": "2026-05-20",

@@ -362,7 +362,10 @@
 		{
 			"date": "2026-06-02",
 			"type": "lecture",
-			"title": "Programming: Language Roles"
+			"title": "Programming: Language Roles",
+			"slides": "lectures/l19-language_roles.pdf",
+			"demo": "demos/l19-language_roles.zip",
+			"link": "https://uci.yuja.com/V/Video?v=16159509&node=68980484&a=209106310"
 		},
 		{
 			"date": "2026-06-03",
@@ -375,7 +378,9 @@
 		{
 			"date": "2026-06-04",
 			"type": "lecture",
-			"title": "Practice: Developer Handoffs"
+			"title": "Practice: Developer Handoffs",
+			"slides": "lectures/l20-developer_handoffs.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=13094916&node=56812359&a=180354540"
 		},
 		{
 			"date": "2026-06-08",

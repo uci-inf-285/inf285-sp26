@@ -339,7 +339,10 @@
 		},
 		{
 			"date": "2026-05-28",
-			"type": "officehours_weijun"
+			"type": "officehours_ziqi",
+			"place": {
+				"time": "16:00"
+			}
 		},
 		{
 			"date": "2026-05-28",
@@ -357,7 +360,10 @@
 		},
 		{
 			"date": "2026-06-01",
-			"type": "officehours_ziqi"
+			"type": "officehours_weijun",
+			"place": {
+				"time": "12:00"
+			}
 		},
 		{
 			"date": "2026-06-02",
